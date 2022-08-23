@@ -25,6 +25,9 @@ try{
     console.log('Tenha um bom dia!');
 }
  
+try {
+    
+}
 
 
 
