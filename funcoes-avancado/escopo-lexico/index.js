@@ -1,6 +1,7 @@
 const nome = 'Guilherme';
 
 function falaNome() {
+    const nome = 'João';
     console.log(nome);
 }
 
