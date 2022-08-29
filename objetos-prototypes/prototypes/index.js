@@ -1,0 +1,2 @@
+// Construtora -> molde (classe)
+function
