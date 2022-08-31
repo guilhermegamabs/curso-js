@@ -21,7 +21,7 @@ function ValidaCPF(cpfEnviado) {
         return cpfEnviado.replace(/\D+/g, '');
       }
     });
-  }
+}
   
   ValidaCPF.prototype.valida = function() {
     if(typeof this.cpfLimpo === 'undefined') return false;
