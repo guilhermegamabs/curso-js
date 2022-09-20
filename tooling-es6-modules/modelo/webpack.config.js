@@ -1,10 +1,11 @@
+//módulo
 const path = require('path'); // CommonJS
 
 module.exports = {
-    mode: 'development', // development
+    mode: 'development',
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'public', 'assets', 'js'), // dirname é o repositório atual
+        path: path.resolve(__dirname, 'public', 'assets', 'js'),
         filename: 'bundle.js'
     },
     module: {
@@ -19,7 +20,5 @@ module.exports = {
             }
         }]
     },
-    devtool: 'source-map'
+    devtool: 'source-map',
 };
-
-
