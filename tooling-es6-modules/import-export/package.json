@@ -1,10 +1,10 @@
 {
-  "name": "modelo",
+  "name": "import-export",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gera": "webpack -w"
+    "dev": "webpack -w"
   },
   "keywords": [],
   "author": "",
